@@ -213,3 +213,26 @@ button{
     border-radius: 100%;
 
 }
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .left, .right {
+        width: 100%;
+        height: auto;
+    }
+    .heading {
+        flex-direction: column;
+        height: auto;
+    }
+    .fixed-footer {
+        height: auto;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+::-webkit-scrollbar {
+    display: none;
+}
