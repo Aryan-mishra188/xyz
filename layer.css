@@ -217,6 +217,7 @@ button{
 @media (max-width: 600px) {
     .container {
         flex-direction: column;
+        width: 50vw;
     }
     .left, .right {
         width: 100%;
